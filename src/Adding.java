@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Adding {
-    void add(List list) {
+   public static void add(List list) {
         Scanner scanner = new Scanner(System.in);
         String x = null;
         System.out.println("Podaj wynik (lub stop):");

@@ -7,9 +7,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Adding adding = new Adding();
+
         List<Result> results = new ArrayList<>();
-        adding.add(results);
+        Adding.add(results);
         Collections.sort(results);
         System.out.println(results);
 
